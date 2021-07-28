@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #cd2653;
+  --font-family-main: 'ProximaNova-Regular';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("/css/fonts/proximanova-regular-webfont.eot");
+  src: url("/css/fonts/proximanova-regular-webfont.ttf"),
+    url("/css/fonts/proximanova-regular-webfont.woff"),
+    url("/css/fonts/proximanova-regular-webfont.woff2"),
+    url("/css/fonts/proximanova-regular-webfont.svg");
+}
+/* Base styles */
+body {
+  font-family: var(--font-family-main);
+  line-height: 1.7;
+  background: #FFEBC9;
+}
+
+.container {
+  padding: 1rem;
+  max-width: 600px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.social-icons:hover {
+  color: #333;
+}
+
+li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  margin: 1rem 0;
+}
+
+/* Profile Section */
+.profile-img {
+  width: 100px;
+  border-radius: 100%;
+  border: 0.3rem solid var(--primary-color);
+}
+
+.navbar {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  display: flex;
+  
+}
+
+ul {
+  display: flex;
+}
+
+.social-icons {
+  margin-right: 0.5rem;
+}
+
+.wave-hand img {
+  width: 32px;
+}
+
+/* Contact Form */
+
+.contact-form {
+  max-width: 350px;
+  margin: 1rem 0;
+}
+
+.form-control {
+  width: 100%;
+  font-family: var(--font-family-main);
+  padding: .3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.btn {
+  padding: .5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: .2rem;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+}

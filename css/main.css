@@ -8,7 +8,7 @@
   --primary-color: #cd2653;
   --font-family-main: 'ProximaNova-Regular';
 }
-
+/* bg color to test #f5efe0 */
 html {
   scroll-behavior: smooth;
 }

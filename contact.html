@@ -33,7 +33,7 @@
           </p>
 
           <div class="contact-form">
-            <form action="">
+            <form name="contact" method="POST" data-netlify="true">
               <div class="form-group">
                 <input
                   type="text"
@@ -56,12 +56,15 @@
                   name="message"
                   id=""
                   cols="30"
-                  rows="10"
+                  rows="5"
                   placeholder="Message"
                   class="form-control"
                 ></textarea>
               </div>
-              <button class="btn btn-primary" type="submit">Send</button>
+              <div data-netlify-recaptcha="true"></div>
+              <div>
+                <button class="btn btn-primary" type="submit">Send</button>
+              </div>
             </form>
           </div>
         </div>

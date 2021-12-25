@@ -87,6 +87,11 @@ ul {
   width: 32px;
 }
 
+/* About Me */
+.about-me h3 {
+  margin-top: 1rem;
+}
+
 /* Contact Form */
 
 .contact-form {

@@ -75,7 +75,7 @@ li {
   display: flex;
 }
 
-ul {
+.navbar ul {
   display: flex;
 }
 
@@ -126,4 +126,11 @@ ul {
 
 .btn:hover {
   background: #333;
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.2rem;
 }

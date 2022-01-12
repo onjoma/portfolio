@@ -130,7 +130,10 @@ li {
 
 .work-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
   column-gap: 0.5rem;
   row-gap: 0.2rem;
+  border-right: 1px solid red;
 }

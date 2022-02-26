@@ -36,6 +36,7 @@ body {
   overflow: hidden;
   display: flex;
   align-items: center;
+  margin: auto;
 }
 
 a {
@@ -95,7 +96,7 @@ li {
 /* Contact Form */
 
 .contact-form {
-  max-width: 350px;
+  width: 350px;
   margin: 1rem 0;
 }
 

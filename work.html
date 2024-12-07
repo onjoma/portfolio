@@ -45,7 +45,7 @@
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" onclick="openModal('plumbing-modal')">Brief</span>
+                  <span class="brief-link" data-modal="plumbing-modal">Brief</span>
                   <a href="https://onjoma.github.io/plumbing_site/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -60,7 +60,7 @@
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" onclick="openModal('portfolio-modal')">Brief</span>
+                  <span class="brief-link" data-modal="portfolio-modal">Brief</span>
                   <a href="https://thirsty-kilby-a930d1.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -75,7 +75,7 @@
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" onclick="openModal('agency-modal')">Brief</span>
+                  <span class="brief-link" data-modal="agency-modal">Brief</span>
                   <a href="https://cranky-nightingale-026acf.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -90,7 +90,7 @@
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" onclick="openModal('photography-modal')">Brief</span>
+                  <span class="brief-link" data-modal="photography-modal">Brief</span>
                   <a href="https://qphotography.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -109,7 +109,7 @@
                   <span class="tech-tag">CSS</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" onclick="openModal('bmi-modal')">Brief</span>
+                  <span class="brief-link" data-modal="bmi-modal">Brief</span>
                   <a href="https://bmi-app-mbfa.onrender.com/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -125,7 +125,7 @@
                   <span class="tech-tag">CSS</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" onclick="openModal('notes-modal')">Brief</span>
+                  <span class="brief-link" data-modal="notes-modal">Brief</span>
                   <a href="https://notes-app-16i0.onrender.com/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -142,7 +142,7 @@
     <!-- Modals -->
     <div id="plumbing-modal" class="modal" role="dialog" aria-labelledby="plumbing-modal-title" aria-modal="true">
       <div class="modal-content">
-        <span class="close-modal" onclick="closeModal('plumbing-modal')" aria-label="Close modal">&times;</span>
+        <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="plumbing-modal-title">Plumbing Site</h3>
         <p class="modal-description">A modern website for a plumbing business featuring service listings, contact forms, and responsive design. The site includes an intuitive navigation system and clear call-to-action elements.</p>
         <p class="modal-tech">Technologies used:</p>
@@ -156,7 +156,7 @@
 
     <div id="portfolio-modal" class="modal" role="dialog" aria-labelledby="portfolio-modal-title" aria-modal="true">
       <div class="modal-content">
-        <span class="close-modal" onclick="closeModal('portfolio-modal')" aria-label="Close modal">&times;</span>
+        <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="portfolio-modal-title">Single Page Portfolio Site</h3>
         <p class="modal-description">A single-page portfolio website showcasing my skills and experience as a web developer. The site features a responsive design, smooth scrolling, and a clean layout.</p>
         <p class="modal-tech">Technologies used:</p>
@@ -170,7 +170,7 @@
 
     <div id="agency-modal" class="modal" role="dialog" aria-labelledby="agency-modal-title" aria-modal="true">
       <div class="modal-content">
-        <span class="close-modal" onclick="closeModal('agency-modal')" aria-label="Close modal">&times;</span>
+        <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="agency-modal-title">Single Page Agency</h3>
         <p class="modal-description">A single-page agency website featuring a modern design, responsive layout, and smooth scrolling. The site includes a hero section, services section, and contact form.</p>
         <p class="modal-tech">Technologies used:</p>
@@ -184,7 +184,7 @@
 
     <div id="photography-modal" class="modal" role="dialog" aria-labelledby="photography-modal-title" aria-modal="true">
       <div class="modal-content">
-        <span class="close-modal" onclick="closeModal('photography-modal')" aria-label="Close modal">&times;</span>
+        <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="photography-modal-title">Photography Site</h3>
         <p class="modal-description">A photography website featuring a responsive design, image gallery, and contact form. The site includes a hero section, services section, and about page.</p>
         <p class="modal-tech">Technologies used:</p>
@@ -198,7 +198,7 @@
 
     <div id="bmi-modal" class="modal" role="dialog" aria-labelledby="bmi-modal-title" aria-modal="true">
       <div class="modal-content">
-        <span class="close-modal" onclick="closeModal('bmi-modal')" aria-label="Close modal">&times;</span>
+        <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="bmi-modal-title">BMI Calculator App</h3>
         <p class="modal-description">A BMI calculator app built using Python and Flask. The app allows users to input their weight and height, and calculates their BMI based on the input values.</p>
         <p class="modal-tech">Technologies used:</p>
@@ -213,7 +213,7 @@
 
     <div id="notes-modal" class="modal" role="dialog" aria-labelledby="notes-modal-title" aria-modal="true">
       <div class="modal-content">
-        <span class="close-modal" onclick="closeModal('notes-modal')" aria-label="Close modal">&times;</span>
+        <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="notes-modal-title">BQ-Notes App</h3>
         <p class="modal-description">A note-taking app built using Python and Flask. The app allows users to create, read, update, and delete notes.</p>
         <p class="modal-tech">Technologies used:</p>
@@ -226,31 +226,6 @@
       </div>
     </div>
 
-    <script>
-      function openModal(modalId) {
-        document.getElementById(modalId).style.display = "block";
-      }
-
-      function closeModal(modalId) {
-        document.getElementById(modalId).style.display = "none";
-      }
-
-      // Close modal when clicking outside
-      window.onclick = function(event) {
-        if (event.target.classList.contains('modal')) {
-          event.target.style.display = "none";
-        }
-      }
-
-      // Close modal with Escape key
-      document.addEventListener('keydown', function(event) {
-        if (event.key === "Escape") {
-          const modals = document.getElementsByClassName('modal');
-          for (let modal of modals) {
-            modal.style.display = "none";
-          }
-        }
-      });
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>

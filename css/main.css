@@ -31,22 +31,25 @@ html {
 html, body {
   height: 100%;
   overflow-y: auto !important;
+  margin: 0;
 }
 
 body {
   font-family: var(--font-family-main);
   line-height: 1.7;
   background: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 /* Container Styles */
 .container {
   padding: 1rem;
   max-width: 600px;
+  width: 100%;
   margin: auto;
-  height: auto !important;
-  overflow: visible !important;
-  display: block !important;
 }
 
 /* Navigation */

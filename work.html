@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Peter Onjoma's web development portfolio featuring projects in HTML, CSS, JavaScript, Python, and Flask. View examples of responsive websites and web applications." />
+    <meta name="keywords" content="web developer portfolio, project showcase, HTML CSS projects, Python Flask projects, responsive websites" />
+    <meta name="author" content="Peter Onjoma" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Peter Onjoma's Portfolio - Web Development Projects" />
+    <meta property="og:description" content="Browse through my collection of web development projects showcasing expertise in HTML, CSS, JavaScript, Python, and Flask." />
+    <meta property="og:type" content="website" />
     <link
       rel="icon"
       type="image/png"
@@ -12,7 +19,7 @@
     />
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>ONJOMA - Web Developer</title>
+    <title>Peter Onjoma's Portfolio - Web Development Projects</title>
   </head>
   <body>
     <div class="container">
@@ -25,36 +32,225 @@
           </ul>
         </div>
         <div class="about-me">
-          <img class="profile-img" src="images/profile.png" alt="profile" />
+          <img class="profile-img" src="images/profile.png" alt="profile" loading="lazy" />
           <h2>My Work</h2>
           <h3>HTML, CSS, JS</h3>
-          <div class="work-list">
-            <li>
-              <a href="https://onjoma.github.io/plumbing_site/" target="_blank">Plumbing site</a>
-            </li>
-            <li>
-              <a href="https://codepen.io/onjoma/pen/VwWwWYd" target="_blank">Team page/section</a>
-            </li>
-            <li>
-              <a href="https://thirsty-kilby-a930d1.netlify.app/" target="_blank">Single page portfolio Site</a>
-            </li>
-            <li>
-              <a href="https://cranky-nightingale-026acf.netlify.app/" target="_blank">Single page agency</a>
-            </li>
-            <li>
-              <a href="https://qphotography.netlify.app/" target="_blank">Photography site</a>
-            </li>
-            <li>
-              <a href="https://bmi-app-mbfa.onrender.com/" target="_blank">BMI calculator app</a>
-            </li>
-            <li>
-              <a href="https://notes-app-16i0.onrender.com/" target="_blank">BQ-Notes app</a>
-            </li>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <h4 class="project-title">Plumbing Site</h4>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <span class="brief-link" onclick="openModal('plumbing-modal')">Brief</span>
+                  <a href="https://onjoma.github.io/plumbing_site/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h4 class="project-title">Single Page Portfolio Site</h4>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <span class="brief-link" onclick="openModal('portfolio-modal')">Brief</span>
+                  <a href="https://thirsty-kilby-a930d1.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h4 class="project-title">Single Page Agency</h4>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <span class="brief-link" onclick="openModal('agency-modal')">Brief</span>
+                  <a href="https://cranky-nightingale-026acf.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h4 class="project-title">Photography Site</h4>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <span class="brief-link" onclick="openModal('photography-modal')">Brief</span>
+                  <a href="https://qphotography.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3>PYTHON, FLASK</h3>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <h4 class="project-title">BMI Calculator App</h4>
+                <div class="project-tech">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <span class="brief-link" onclick="openModal('bmi-modal')">Brief</span>
+                  <a href="https://bmi-app-mbfa.onrender.com/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <h4 class="project-title">BQ-Notes App</h4>
+                <div class="project-tech">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+                <div class="project-links">
+                  <span class="brief-link" onclick="openModal('notes-modal')">Brief</span>
+                  <a href="https://notes-app-16i0.onrender.com/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3>WORDPRESS</h3>
+          <small>coming soon...</small>
+          <p class="copyright">&copy; 2024 onjomapeter.com</p>
         </div>
-        <h3>WORDPRESS</h3>
-        <small>coming soon...</small>
-        <p class="copyright">&copy; 2024 onjomapeter.com</p>
       </div>
     </div>
+
+    <!-- Modals -->
+    <div id="plumbing-modal" class="modal" role="dialog" aria-labelledby="plumbing-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('plumbing-modal')" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="plumbing-modal-title">Plumbing Site</h3>
+        <p class="modal-description">A modern website for a plumbing business featuring service listings, contact forms, and responsive design. The site includes an intuitive navigation system and clear call-to-action elements.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio-modal" class="modal" role="dialog" aria-labelledby="portfolio-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('portfolio-modal')" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="portfolio-modal-title">Single Page Portfolio Site</h3>
+        <p class="modal-description">A single-page portfolio website showcasing my skills and experience as a web developer. The site features a responsive design, smooth scrolling, and a clean layout.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="agency-modal" class="modal" role="dialog" aria-labelledby="agency-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('agency-modal')" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="agency-modal-title">Single Page Agency</h3>
+        <p class="modal-description">A single-page agency website featuring a modern design, responsive layout, and smooth scrolling. The site includes a hero section, services section, and contact form.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="photography-modal" class="modal" role="dialog" aria-labelledby="photography-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('photography-modal')" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="photography-modal-title">Photography Site</h3>
+        <p class="modal-description">A photography website featuring a responsive design, image gallery, and contact form. The site includes a hero section, services section, and about page.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="bmi-modal" class="modal" role="dialog" aria-labelledby="bmi-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('bmi-modal')" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="bmi-modal-title">BMI Calculator App</h3>
+        <p class="modal-description">A BMI calculator app built using Python and Flask. The app allows users to input their weight and height, and calculates their BMI based on the input values.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="notes-modal" class="modal" role="dialog" aria-labelledby="notes-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal('notes-modal')" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="notes-modal-title">BQ-Notes App</h3>
+        <p class="modal-description">A note-taking app built using Python and Flask. The app allows users to create, read, update, and delete notes.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+      }
+
+      function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+      }
+
+      // Close modal when clicking outside
+      window.onclick = function(event) {
+        if (event.target.classList.contains('modal')) {
+          event.target.style.display = "none";
+        }
+      }
+
+      // Close modal with Escape key
+      document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+          const modals = document.getElementsByClassName('modal');
+          for (let modal of modals) {
+            modal.style.display = "none";
+          }
+        }
+      });
+    </script>
   </body>
 </html>

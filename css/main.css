@@ -253,6 +253,15 @@ a:hover {
   font-weight: bold;
 }
 
+/* Footer Styles */
+#footer {
+  margin-top: 3rem;
+}
+
+#footer.home-footer {
+  margin-top: 0;
+}
+
 /* Utilities */
 .copyright {
   font-size: 0.6rem;

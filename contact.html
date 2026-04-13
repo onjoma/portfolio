@@ -4,23 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact Peter Onjoma for web development services, WordPress support, and maintenance. Get in touch for your next web project or technical support needs." />
-    <meta name="keywords" content="contact web developer, hire wordpress developer, web development services, technical support" />
+    <meta name="description" content="Get in touch with Peter Onjoma for freelance web development, WordPress support, and maintenance. Let's discuss your next project." />
+    <meta name="keywords" content="hire freelance web developer, contact peter onjoma, wordpress support, web development services" />
     <meta name="author" content="Peter Onjoma" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Contact Peter Onjoma - Web Development Services" />
-    <meta property="og:description" content="Get in touch for professional web development services, WordPress support, and maintenance. Let's discuss your next project." />
+    <meta property="og:title" content="Contact Peter Onjoma — Hire a Freelance Web Developer" />
+    <meta property="og:description" content="Get in touch for freelance web development, WordPress support, and maintenance. Let's discuss your next project." />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://onjomapeter.com/contact.html" />
     <meta property="og:image" content="https://onjomapeter.com/images/og-image.svg" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/site-icon.png"
-    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@onjoma" />
+    <meta name="twitter:title" content="Contact Peter Onjoma — Hire a Freelance Web Developer" />
+    <meta name="twitter:description" content="Get in touch for freelance web development, WordPress support, and maintenance. Let's discuss your next project." />
+    <meta name="twitter:image" content="https://onjomapeter.com/images/og-image.svg" />
+    <link rel="canonical" href="https://onjomapeter.com/contact.html" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/site-icon.png" />
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>ONJOMA - Web Developer</title>
+    <title>Contact Peter Onjoma — Hire a Freelance Web Developer</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Peter Onjoma",
+      "url": "https://onjomapeter.com",
+      "jobTitle": "Freelance Web Developer",
+      "description": "Freelance Web Developer and Virtual Assistant specialising in WordPress, HTML, CSS, JavaScript, Python and Flask.",
+      "knowsAbout": ["WordPress", "HTML", "CSS", "JavaScript", "Python", "Flask"],
+      "sameAs": [
+        "https://twitter.com/onjoma",
+        "https://www.linkedin.com/in/onjomapeter/",
+        "https://github.com/onjoma"
+      ]
+    }
+    </script>
   </head>
   <body>
     <div class="container">
@@ -34,7 +52,7 @@
           </ul>
         </div>
         <div class="about-me">
-          <h2>Get In Touch</h2>
+          <h1>Get In Touch</h1>
           <p>
             Have any questions or just want to say
             <span class="wave-hand"
@@ -45,14 +63,17 @@
           <div class="contact-form">
             <form name="contact" method="POST" data-netlify="true">
               <div class="form-group">
+                <label for="name" class="sr-only">Your name</label>
                 <input
                   type="text"
                   name="name"
+                  id="name"
                   placeholder="Name"
                   class="form-control"
                 />
               </div>
               <div class="form-group">
+                <label for="email" class="sr-only">Your email address</label>
                 <input
                   type="email"
                   name="email"
@@ -62,9 +83,10 @@
                 />
               </div>
               <div class="form-group">
+                <label for="message" class="sr-only">Your message</label>
                 <textarea
                   name="message"
-                  id=""
+                  id="message"
                   cols="30"
                   rows="5"
                   placeholder="Message"

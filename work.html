@@ -11,12 +11,8 @@
     <meta property="og:title" content="Peter Onjoma's Portfolio - Web Development Projects" />
     <meta property="og:description" content="Browse through my collection of web development projects showcasing expertise in HTML, CSS, JavaScript, Python, and Flask." />
     <meta property="og:type" content="website" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/site-icon.png"
-    />
+    <meta property="og:image" content="https://onjomapeter.com/images/og-image.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/site-icon.png" />
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Peter Onjoma's Portfolio - Web Development Projects</title>
@@ -29,68 +25,77 @@
             <li><a href="/index.html">home</a></li>
             <li><a href="/about.html">about</a></li>
             <li><a href="/contact.html">contact</a></li>
+            <li><a href="/work.html" class="active">my work</a></li>
           </ul>
         </div>
         <div class="about-me">
-          <img class="profile-img" src="images/profile.png" alt="profile" loading="lazy" />
           <h2>My Work</h2>
+
           <h3>HTML, CSS, JS</h3>
           <div class="projects-grid">
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/plumbing.svg" alt="Plumbing Site preview" />
               <div class="project-content">
-                <h4 class="project-title">Plumbing Site</h4>
+                <h4 class="project-title">Plumbing Business Site</h4>
+                <p class="project-description">Responsive landing page for a local plumbing service with a contact form and service sections.</p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">CSS</span>
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="plumbing-modal">Brief</span>
+                  <span class="brief-link" data-modal="plumbing-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://onjoma.github.io/plumbing_site/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
             </div>
 
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/portfolio.svg" alt="Single Page Portfolio Site preview" />
               <div class="project-content">
-                <h4 class="project-title">Single Page Portfolio Site</h4>
+                <h4 class="project-title">Minimal Freelancer Portfolio</h4>
+                <p class="project-description">A clean, single-page portfolio template showcasing skills, projects, and contact details.</p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">CSS</span>
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="portfolio-modal">Brief</span>
+                  <span class="brief-link" data-modal="portfolio-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://thirsty-kilby-a930d1.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
             </div>
 
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/agency.svg" alt="Single Page Agency preview" />
               <div class="project-content">
-                <h4 class="project-title">Single Page Agency</h4>
+                <h4 class="project-title">Dark Agency Landing Page</h4>
+                <p class="project-description">A bold, dark-themed landing page with sections for services, team highlights, and a call-to-action.</p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">CSS</span>
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="agency-modal">Brief</span>
+                  <span class="brief-link" data-modal="agency-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://cranky-nightingale-026acf.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
             </div>
 
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/photography.svg" alt="Photography Site preview" />
               <div class="project-content">
-                <h4 class="project-title">Photography Site</h4>
+                <h4 class="project-title">QPhotography Portfolio</h4>
+                <p class="project-description">An image-forward portfolio for a photographer with a dramatic dark theme and gallery layout.</p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">CSS</span>
                   <span class="tech-tag">JavaScript</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="photography-modal">Brief</span>
+                  <span class="brief-link" data-modal="photography-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://qphotography.netlify.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -100,8 +105,10 @@
           <h3>PYTHON, FLASK</h3>
           <div class="projects-grid">
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/bmi.svg" alt="BMI Calculator App preview" />
               <div class="project-content">
                 <h4 class="project-title">BMI Calculator App</h4>
+                <p class="project-description">A Flask web app that calculates Body Mass Index from user input and returns health guidance feedback.</p>
                 <div class="project-tech">
                   <span class="tech-tag">Python</span>
                   <span class="tech-tag">Flask</span>
@@ -109,15 +116,17 @@
                   <span class="tech-tag">CSS</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="bmi-modal">Brief</span>
+                  <span class="brief-link" data-modal="bmi-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://bmi-app-mbfa.onrender.com/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
             </div>
 
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/notes.svg" alt="BQ-Notes App preview" />
               <div class="project-content">
                 <h4 class="project-title">BQ-Notes App</h4>
+                <p class="project-description">A full-stack notes application built with Flask, supporting full CRUD — create, read, update, and delete notes.</p>
                 <div class="project-tech">
                   <span class="tech-tag">Python</span>
                   <span class="tech-tag">Flask</span>
@@ -125,7 +134,7 @@
                   <span class="tech-tag">CSS</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="notes-modal">Brief</span>
+                  <span class="brief-link" data-modal="notes-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://notes-app-16i0.onrender.com/" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
@@ -133,10 +142,12 @@
           </div>
 
           <h3>WORDPRESS</h3>
-          <div class="projects-grid">
+          <div class="projects-grid projects-grid--single">
             <div class="project-card">
+              <img class="project-thumbnail" src="images/thumbnails/lindawp.svg" alt="LindaWP Elementor Popup preview" />
               <div class="project-content">
                 <h4 class="project-title">LindaWP Elementor Popup</h4>
+                <p class="project-description">A custom WordPress plugin that adds a fully customizable modal popup widget to the Elementor page builder.</p>
                 <div class="project-tech">
                   <span class="tech-tag">WordPress</span>
                   <span class="tech-tag">PHP</span>
@@ -144,11 +155,16 @@
                   <span class="tech-tag">CSS</span>
                 </div>
                 <div class="project-links">
-                  <span class="brief-link" data-modal="lindawp-modal">Brief</span>
+                  <span class="brief-link" data-modal="lindawp-modal" role="button" tabindex="0">Brief</span>
                   <a href="https://github.com/onjoma/lindawp-elementor-popup" target="_blank" rel="noopener noreferrer">View Project →</a>
                 </div>
               </div>
             </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="work-cta">
+            <p>Like what you see? <a href="/contact.html">Let's work together →</a></p>
           </div>
         </div>
       </div>
@@ -156,13 +172,97 @@
     </div>
 
     <!-- Modals -->
-    <!-- ... -->
-    
+    <div id="plumbing-modal" class="modal" role="dialog" aria-labelledby="plumbing-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="plumbing-modal-title">Plumbing Business Site</h3>
+        <p class="modal-description">A fully responsive business landing page built for a local plumbing service. Features include a prominent hero section, a services overview, a customer testimonials area, and a contact form for booking enquiries. Designed to be fast, mobile-friendly, and easy to navigate.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio-modal" class="modal" role="dialog" aria-labelledby="portfolio-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="portfolio-modal-title">Minimal Freelancer Portfolio</h3>
+        <p class="modal-description">A clean and minimal single-page portfolio template designed for freelancers and developers. Includes sections for an intro/bio, skills, featured projects, and contact details — all on a single scrollable page with smooth anchor navigation.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="agency-modal" class="modal" role="dialog" aria-labelledby="agency-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="agency-modal-title">Dark Agency Landing Page</h3>
+        <p class="modal-description">A bold, dark-themed landing page built for a creative agency. Includes a full-screen hero with headline and dual CTAs, a services section, team profiles, and a contact area. Designed to convey professionalism and make a strong visual first impression.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="photography-modal" class="modal" role="dialog" aria-labelledby="photography-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="photography-modal-title">QPhotography Portfolio</h3>
+        <p class="modal-description">An image-first portfolio site built for a photographer. Features a dramatic dark theme, a full-screen hero image, a responsive photo gallery grid, and an about/contact section. Emphasis on fast load times and letting the photography speak for itself.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="bmi-modal" class="modal" role="dialog" aria-labelledby="bmi-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="bmi-modal-title">BMI Calculator App</h3>
+        <p class="modal-description">A Flask web application that calculates a user's Body Mass Index based on their height and weight inputs. Returns an instant result with a corresponding health category (Underweight, Normal, Overweight, Obese) and guidance. Built with a clean, accessible form UI.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="notes-modal" class="modal" role="dialog" aria-labelledby="notes-modal-title" aria-modal="true">
+      <div class="modal-content">
+        <span class="close-modal" aria-label="Close modal">&times;</span>
+        <h3 class="modal-title" id="notes-modal-title">BQ-Notes App</h3>
+        <p class="modal-description">A full-stack notes application built with Python and Flask. Users can create, read, update, and delete notes through a clean two-panel interface — sidebar for navigation and a main editor area. Data is persisted server-side, making it a practical everyday tool.</p>
+        <p class="modal-tech">Technologies used:</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+        </div>
+      </div>
+    </div>
+
     <div id="lindawp-modal" class="modal" role="dialog" aria-labelledby="lindawp-modal-title" aria-modal="true">
       <div class="modal-content">
         <span class="close-modal" aria-label="Close modal">&times;</span>
         <h3 class="modal-title" id="lindawp-modal-title">LindaWP Elementor Popup</h3>
-        <p class="modal-description">A powerful and fully customizable modal popup widget for Elementor. Create beautiful, responsive popups with advanced styling options and smooth interactions.</p>
+        <p class="modal-description">A custom WordPress plugin that registers a fully customizable modal popup widget for the Elementor page builder. Supports configurable trigger buttons, custom content, overlay styles, and smooth open/close animations — all controllable through Elementor's visual editor without writing code.</p>
         <p class="modal-tech">Technologies used:</p>
         <div class="project-tech">
           <span class="tech-tag">WordPress</span>

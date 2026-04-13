@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160">
+  <!-- Warm background -->
+  <rect width="280" height="160" fill="#fffbf2" rx="6"/>
+  <!-- Browser bar -->
+  <rect width="280" height="22" fill="#e8dfc8" rx="6"/>
+  <rect y="11" width="280" height="11" fill="#e8dfc8"/>
+  <circle cx="12" cy="11" r="4" fill="#ff5f57"/>
+  <circle cx="24" cy="11" r="4" fill="#ffbd2e"/>
+  <circle cx="36" cy="11" r="4" fill="#28c840"/>
+  <rect x="60" y="6" width="160" height="10" fill="white" rx="5" opacity="0.5"/>
+  <!-- App layout: sidebar + main -->
+  <!-- Sidebar -->
+  <rect x="0" y="22" width="75" height="138" fill="#f5efe0"/>
+  <!-- Sidebar items -->
+  <rect x="8" y="32" width="59" height="18" fill="#f39c12" rx="4" opacity="0.25"/>
+  <rect x="12" y="37" width="40" height="8" fill="#333" rx="1" opacity="0.6"/>
+  <rect x="8" y="55" width="59" height="14" fill="transparent" rx="3"/>
+  <rect x="12" y="59" width="35" height="6" fill="#777" rx="1" opacity="0.4"/>
+  <rect x="8" y="73" width="59" height="14" fill="transparent" rx="3"/>
+  <rect x="12" y="77" width="42" height="6" fill="#777" rx="1" opacity="0.4"/>
+  <rect x="8" y="91" width="59" height="14" fill="transparent" rx="3"/>
+  <rect x="12" y="95" width="38" height="6" fill="#777" rx="1" opacity="0.4"/>
+  <!-- Add note button at bottom of sidebar -->
+  <rect x="8" y="130" width="59" height="20" fill="#f39c12" rx="4"/>
+  <rect x="26" y="136" width="23" height="8" fill="white" rx="1" opacity="0.9"/>
+  <line x1="34" y1="134" x2="34" y2="142" stroke="white" stroke-width="2"/>
+  <!-- Main content area -->
+  <rect x="75" y="22" width="205" height="138" fill="white"/>
+  <!-- Note header -->
+  <rect x="85" y="30" width="140" height="10" fill="#2d2d2d" rx="2" opacity="0.85"/>
+  <rect x="85" y="44" width="80" height="6" fill="#888" rx="1" opacity="0.4"/>
+  <!-- Divider -->
+  <rect x="85" y="55" width="185" height="1" fill="#f0e8d8"/>
+  <!-- Note body lines -->
+  <rect x="85" y="62" width="180" height="6" fill="#444" rx="1" opacity="0.3"/>
+  <rect x="85" y="73" width="165" height="6" fill="#444" rx="1" opacity="0.25"/>
+  <rect x="85" y="84" width="170" height="6" fill="#444" rx="1" opacity="0.22"/>
+  <rect x="85" y="95" width="140" height="6" fill="#444" rx="1" opacity="0.18"/>
+  <rect x="85" y="106" width="158" height="6" fill="#444" rx="1" opacity="0.15"/>
+  <!-- Vertical divider -->
+  <rect x="75" y="22" width="1" height="138" fill="#e8dfc8"/>
+</svg>

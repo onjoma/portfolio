@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160">
+  <!-- Background white/clean -->
+  <rect width="280" height="160" fill="#f7faf7" rx="6"/>
+  <!-- Browser bar -->
+  <rect width="280" height="22" fill="#dce8dc" rx="6"/>
+  <rect y="11" width="280" height="11" fill="#dce8dc"/>
+  <circle cx="12" cy="11" r="4" fill="#ff5f57"/>
+  <circle cx="24" cy="11" r="4" fill="#ffbd2e"/>
+  <circle cx="36" cy="11" r="4" fill="#28c840"/>
+  <rect x="60" y="6" width="160" height="10" fill="white" rx="5" opacity="0.5"/>
+  <!-- App card (centered) -->
+  <rect x="40" y="30" width="200" height="118" fill="white" rx="8" opacity="0.95"/>
+  <!-- App title -->
+  <rect x="80" y="40" width="120" height="10" fill="#27ae60" rx="2"/>
+  <!-- Divider -->
+  <rect x="50" y="56" width="180" height="1" fill="#e0e0e0"/>
+  <!-- Form fields -->
+  <rect x="55" y="63" width="170" height="14" fill="#f0f0f0" rx="4"/>
+  <rect x="60" y="67" width="50" height="6" fill="#aaa" rx="1" opacity="0.6"/>
+  <rect x="55" y="82" width="170" height="14" fill="#f0f0f0" rx="4"/>
+  <rect x="60" y="86" width="60" height="6" fill="#aaa" rx="1" opacity="0.6"/>
+  <!-- Calculate button -->
+  <rect x="75" y="102" width="130" height="18" fill="#27ae60" rx="5"/>
+  <rect x="95" y="106" width="90" height="10" fill="white" rx="2" opacity="0.9"/>
+  <!-- Result gauge -->
+  <rect x="55" y="126" width="170" height="14" fill="#f0f6f0" rx="4"/>
+  <!-- Result bar segments -->
+  <rect x="58" y="128" width="38" height="10" fill="#27ae60" rx="2" opacity="0.7"/>
+  <rect x="100" y="128" width="38" height="10" fill="#8bc34a" rx="2" opacity="0.6"/>
+  <rect x="142" y="128" width="38" height="10" fill="#ff9800" rx="2" opacity="0.6"/>
+  <rect x="184" y="128" width="38" height="10" fill="#f44336" rx="2" opacity="0.5"/>
+  <!-- Indicator needle -->
+  <line x1="120" y1="125" x2="120" y2="139" stroke="#333" stroke-width="2"/>
+  <polygon points="120,123 116,128 124,128" fill="#333"/>
+</svg>

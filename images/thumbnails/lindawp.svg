@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160">
+  <!-- Background (page) -->
+  <rect width="280" height="160" fill="#f0f0f1" rx="6"/>
+  <!-- Browser bar -->
+  <rect width="280" height="22" fill="#d8d8e0" rx="6"/>
+  <rect y="11" width="280" height="11" fill="#d8d8e0"/>
+  <circle cx="12" cy="11" r="4" fill="#ff5f57"/>
+  <circle cx="24" cy="11" r="4" fill="#ffbd2e"/>
+  <circle cx="36" cy="11" r="4" fill="#28c840"/>
+  <rect x="60" y="6" width="160" height="10" fill="white" rx="5" opacity="0.5"/>
+  <!-- WP Admin top bar -->
+  <rect x="0" y="22" width="280" height="18" fill="#1d2327"/>
+  <rect x="8" y="26" width="20" height="10" fill="#21759b" rx="2" opacity="0.9"/>
+  <rect x="34" y="29" width="40" height="5" fill="white" rx="1" opacity="0.4"/>
+  <rect x="84" y="29" width="35" height="5" fill="white" rx="1" opacity="0.3"/>
+  <!-- Page background (behind popup) -->
+  <rect x="0" y="40" width="280" height="120" fill="#e8e8ec"/>
+  <!-- Blurred page content behind popup -->
+  <rect x="10" y="48" width="260" height="8" fill="#ccc" rx="2" opacity="0.6"/>
+  <rect x="10" y="60" width="200" height="6" fill="#ccc" rx="2" opacity="0.4"/>
+  <rect x="10" y="70" width="220" height="6" fill="#ccc" rx="2" opacity="0.4"/>
+  <!-- Overlay -->
+  <rect x="0" y="40" width="280" height="120" fill="black" opacity="0.45" rx="0 0 6 6"/>
+  <!-- Popup modal (centered) -->
+  <rect x="50" y="52" width="180" height="100" fill="white" rx="8"/>
+  <!-- Popup close button -->
+  <circle cx="222" cy="60" r="8" fill="#cd2653"/>
+  <line x1="218" y1="56" x2="226" y2="64" stroke="white" stroke-width="2"/>
+  <line x1="226" y1="56" x2="218" y2="64" stroke="white" stroke-width="2"/>
+  <!-- Popup header bar -->
+  <rect x="50" y="52" width="180" height="28" fill="#21759b" rx="8 8 0 0"/>
+  <rect x="62" y="61" width="100" height="9" fill="white" rx="2" opacity="0.9"/>
+  <!-- Popup content -->
+  <rect x="65" y="90" width="150" height="7" fill="#555" rx="2" opacity="0.5"/>
+  <rect x="65" y="102" width="130" height="7" fill="#555" rx="2" opacity="0.4"/>
+  <rect x="65" y="114" width="140" height="7" fill="#555" rx="2" opacity="0.35"/>
+  <!-- Popup CTA button -->
+  <rect x="80" y="130" width="120" height="16" fill="#cd2653" rx="4"/>
+  <rect x="100" y="134" width="80" height="8" fill="white" rx="1" opacity="0.9"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 160">
+  <!-- Dark background -->
+  <rect width="280" height="160" fill="#111118" rx="6"/>
+  <!-- Browser bar -->
+  <rect width="280" height="22" fill="#1c1c26" rx="6"/>
+  <rect y="11" width="280" height="11" fill="#1c1c26"/>
+  <circle cx="12" cy="11" r="4" fill="#ff5f57"/>
+  <circle cx="24" cy="11" r="4" fill="#ffbd2e"/>
+  <circle cx="36" cy="11" r="4" fill="#28c840"/>
+  <rect x="60" y="6" width="160" height="10" fill="#2a2a38" rx="5" opacity="0.7"/>
+  <!-- Hero full-width image area -->
+  <rect x="0" y="22" width="280" height="80" fill="#1e1e2a"/>
+  <!-- Landscape gradient overlay -->
+  <rect x="0" y="22" width="280" height="80" fill="url(#photoGrad)"/>
+  <defs>
+    <linearGradient id="photoGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3a4a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#111118" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <!-- Mountain silhouette -->
+  <polygon points="0,102 40,55 80,78 120,45 160,70 200,40 240,65 280,50 280,102" fill="#0a0a14"/>
+  <!-- Stars/dots in sky -->
+  <circle cx="50" cy="35" r="1.2" fill="white" opacity="0.7"/>
+  <circle cx="90" cy="30" r="1" fill="white" opacity="0.6"/>
+  <circle cx="140" cy="28" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="180" cy="35" r="1" fill="white" opacity="0.5"/>
+  <circle cx="220" cy="29" r="1.2" fill="white" opacity="0.7"/>
+  <circle cx="260" cy="33" r="1" fill="white" opacity="0.6"/>
+  <!-- Site title overlay -->
+  <rect x="20" y="55" width="100" height="10" fill="white" rx="2" opacity="0.9"/>
+  <rect x="20" y="70" width="70" height="6" fill="white" rx="1" opacity="0.5"/>
+  <!-- Nav bar overlay -->
+  <rect x="10" y="28" width="25" height="5" fill="white" rx="1" opacity="0.7"/>
+  <rect x="200" y="28" width="22" height="5" fill="white" rx="1" opacity="0.4"/>
+  <rect x="232" y="28" width="22" height="5" fill="white" rx="1" opacity="0.4"/>
+  <!-- Photo gallery grid -->
+  <rect x="8" y="108" width="58" height="42" fill="#2a2a38" rx="3"/>
+  <rect x="74" y="108" width="58" height="42" fill="#2a3040" rx="3"/>
+  <rect x="140" y="108" width="58" height="42" fill="#2a3838" rx="3"/>
+  <rect x="206" y="108" width="66" height="42" fill="#382a2a" rx="3"/>
+  <!-- Camera aperture icon in 2nd gallery item -->
+  <circle cx="103" cy="129" r="12" fill="none" stroke="white" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="103" cy="129" r="7" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+  <circle cx="103" cy="129" r="3" fill="white" opacity="0.25"/>
+</svg>

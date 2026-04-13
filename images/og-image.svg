@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#ffebc9"/>
+
+  <!-- Decorative large circles (bottom-left + top-right) -->
+  <circle cx="0" cy="630" r="380" fill="#cd2653" opacity="0.07"/>
+  <circle cx="0" cy="630" r="240" fill="#cd2653" opacity="0.07"/>
+  <circle cx="1200" cy="0" r="340" fill="#cd2653" opacity="0.07"/>
+  <circle cx="1200" cy="0" r="200" fill="#cd2653" opacity="0.07"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="10" height="630" fill="#cd2653"/>
+
+  <!-- Profile image circle -->
+  <defs>
+    <clipPath id="profileClip">
+      <circle cx="200" cy="280" r="90"/>
+    </clipPath>
+  </defs>
+  <circle cx="200" cy="280" r="95" fill="#cd2653" opacity="0.3"/>
+  <image href="../images/profile.png" x="110" y="190" width="180" height="180" clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Name -->
+  <text x="340" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="90" fill="#1a1a1a" font-weight="bold" letter-spacing="-1">Peter</text>
+
+  <!-- Red underline accent -->
+  <rect x="340" y="258" width="160" height="6" fill="#cd2653" rx="3"/>
+
+  <!-- Role -->
+  <text x="340" y="330" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#cd2653" letter-spacing="3" font-weight="bold">FREELANCE VA &amp; WEB DEVELOPER</text>
+
+  <!-- Tagline -->
+  <text x="340" y="390" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#555">Building clean, responsive websites and web applications.</text>
+
+  <!-- Skill chips -->
+  <rect x="340" y="425" width="110" height="36" fill="#cd2653" opacity="0.12" rx="18"/>
+  <text x="395" y="448" font-family="Arial, sans-serif" font-size="18" fill="#cd2653" text-anchor="middle" font-weight="bold">HTML/CSS</text>
+
+  <rect x="465" y="425" width="130" height="36" fill="#cd2653" opacity="0.12" rx="18"/>
+  <text x="530" y="448" font-family="Arial, sans-serif" font-size="18" fill="#cd2653" text-anchor="middle" font-weight="bold">JavaScript</text>
+
+  <rect x="610" y="425" width="120" height="36" fill="#cd2653" opacity="0.12" rx="18"/>
+  <text x="670" y="448" font-family="Arial, sans-serif" font-size="18" fill="#cd2653" text-anchor="middle" font-weight="bold">Python/Flask</text>
+
+  <rect x="745" y="425" width="120" height="36" fill="#cd2653" opacity="0.12" rx="18"/>
+  <text x="805" y="448" font-family="Arial, sans-serif" font-size="18" fill="#cd2653" text-anchor="middle" font-weight="bold">WordPress</text>
+
+  <!-- Divider -->
+  <rect x="340" y="500" width="820" height="1" fill="#cd2653" opacity="0.25"/>
+
+  <!-- URL -->
+  <text x="340" y="545" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#cd2653" font-style="italic" font-weight="normal" opacity="0.55">onjomapeter.com</text>
+
+  <!-- Dot grid pattern (top right area, decorative) -->
+  <circle cx="1060" cy="480" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1090" cy="480" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1120" cy="480" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1060" cy="510" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1090" cy="510" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1120" cy="510" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1060" cy="540" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1090" cy="540" r="4" fill="#cd2653" opacity="0.2"/>
+  <circle cx="1120" cy="540" r="4" fill="#cd2653" opacity="0.2"/>
+</svg>

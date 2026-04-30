@@ -162,6 +162,10 @@ a:hover {
   margin-top: 1rem;
 }
 
+.about-me p {
+  margin-bottom: 0.85rem;
+}
+
 /* Contact Page */
 .contact-intro {
   margin-bottom: 1.5rem;
